@@ -15,6 +15,8 @@ func _process(delta):
 func game_over():
 	$ScoreTimer.stop()
 	$MobTimer.stop()
+	$Music.stop()
+	$DeathSound.play()
 	$HUD.show_game_over()
 
 func new_game():
@@ -22,7 +24,9 @@ func new_game():
 	$Player.start($StartPosition.position)
 	$HUD.update_score(score)
 	$HUD.show_message("Get Ready")
+	$Music.play()
 	get_tree().call_group("mobs", "queue_free")
+	
 	$StartTimer.start()
 
 func _on_start_timer_timeout():

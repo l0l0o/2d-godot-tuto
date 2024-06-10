@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://owkqsmv3u8wv"
+path="res://.godot/imported/Roikku no utsukushi-sa.mp3-e13750efa2eb54075c181b584b92586b.mp3str"
+
+[deps]
+
+source_file="res://dodge_the_creeps_2d_assets/sounds/Roikku no utsukushi-sa.mp3"
+dest_files=["res://.godot/imported/Roikku no utsukushi-sa.mp3-e13750efa2eb54075c181b584b92586b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
